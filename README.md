@@ -47,7 +47,7 @@
 ![Confusion matrix, without normalization](https://github.com/EgerV/Laba2/blob/master/CM/NB_CM.png)
 ![Normalized confusion matrix](https://github.com/EgerV/Laba2/blob/master/CM/NB_NCM.png)  
 #### Лучшие параметры:
- - Alfha: 0
+ - Alpha: 0
  - Fit prior: False
 #### Оценка предсказания тренировочной выборки с данными параметрами: 0.833490481369
 #### Оценка предсказания тестовой выборки с данными параметрами: 0.833690526198
