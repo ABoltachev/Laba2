@@ -10,5 +10,10 @@
 Для данной задачи я решил выбрать метрику F1 с макро усреднением, так как данная метрика определяет, насколько точно и полно были классифицированы объекты.
 ## Качество полученных классификаторов
 ### kNN
-![Confusion matrix, without normalization](https://github.com/EgerV/Laba2/blob/master/CM/kNN_CM.png)
-![Normalized confusion matrix](https://github.com/EgerV/Laba2/blob/master/CM/kNN_NCM.png)
+![Confusion matrix, without normalization](https://github.com/EgerV/Laba2/blob/master/CM/kNN_CM.png)  
+![Normalized confusion matrix](https://github.com/EgerV/Laba2/blob/master/CM/kNN_NCM.png)  
+#### Лучшие параметры:
+ - Количество соседей: 3
+ - L-метрика: эвклидова (2)
+ - Весовая функция, используемая в прогнозировании: distance
+#### Оценка предсказания тренировочной выборки с данными параметрами: 0.960868885832
