@@ -37,12 +37,13 @@
 #### Оценка предсказания тренировочной выборки с данными параметрами: 0.844682794709
 #### Оценка предсказания тестовой выборки с данными параметрами: 0.849533950892
 ### CNN
-![Confusion matrix, without normalization]()
-![Normalized confusion matrix]()  
+![Confusion matrix, without normalization](https://github.com/EgerV/Laba2/blob/master/CM/CNN_CM.png)
+![Normalized confusion matrix](https://github.com/EgerV/Laba2/blob/master/CM/CNN_NCM.png)  
 #### Лучшие параметры:
- - 
-#### Оценка предсказания тренировочной выборки с данными параметрами: 
-#### Оценка предсказания тестовой выборки с данными параметрами: 
+ - Эпохи: 15
+ - Batch size: 128
+#### Оценка предсказания тренировочной выборки с данными параметрами: 0.989575132164
+#### Оценка предсказания тестовой выборки с данными параметрами: 0.991909716852
 ### Наивный байесовский
 ![Confusion matrix, without normalization](https://github.com/EgerV/Laba2/blob/master/CM/NB_CM.png)
 ![Normalized confusion matrix](https://github.com/EgerV/Laba2/blob/master/CM/NB_NCM.png)  
